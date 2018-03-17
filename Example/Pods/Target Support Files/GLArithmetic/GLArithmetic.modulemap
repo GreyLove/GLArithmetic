@@ -1,0 +1,6 @@
+framework module GLArithmetic {
+  umbrella header "GLArithmetic-umbrella.h"
+
+  export *
+  module * { export * }
+}

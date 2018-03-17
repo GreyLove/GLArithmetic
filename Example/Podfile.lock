@@ -1,0 +1,16 @@
+PODS:
+  - GLArithmetic (0.1.0)
+
+DEPENDENCIES:
+  - GLArithmetic (from `../`)
+
+EXTERNAL SOURCES:
+  GLArithmetic:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GLArithmetic: 0ec48007406ef1b785d54aa9370405d87ec9f931
+
+PODFILE CHECKSUM: 5fd716320dfaa5735f8b98acef1c263505a4086b
+
+COCOAPODS: 1.4.0

@@ -7,7 +7,7 @@
 //
 
 #import "GLViewController.h"
-
+#import "GLCaculate.h"
 @interface GLViewController ()
 
 @end
@@ -18,6 +18,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *str = @"(1.2+4)+10/5*4";
+    
+    //1.
+    NSArray *arr = [str analysisCaculate];
+    NSString *b = [GLCaculate caculateArithmeticArray:arr];
+    
+    //2.
+    NSString *b1 = [GLCaculate caculateArithmeticString:str];
 }
 
 - (void)didReceiveMemoryWarning
