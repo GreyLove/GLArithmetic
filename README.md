@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GLArithmetic
 
 [![CI Status](http://img.shields.io/travis/guolei/GLArithmetic.svg?style=flat)](https://travis-ci.org/guolei/GLArithmetic)
@@ -27,3 +28,7 @@ guolei, guolei@knowbox.cn
 ## License
 
 GLArithmetic is available under the MIT license. See the LICENSE file for more info.
+=======
+# Arithmetic
+四则运算算式
+>>>>>>> c85d346be2918245a06f677e01b98d3dd1f91861
