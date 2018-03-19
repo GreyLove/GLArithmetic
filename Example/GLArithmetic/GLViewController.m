@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSString *str = @"(1.2+4)+10/5*4";
+    NSString *str = @"3×4";
     
     //1.
     NSArray *arr = [str analysisCaculate];

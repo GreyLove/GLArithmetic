@@ -23,7 +23,7 @@
     }else if ([symbol isEqualToString:@"-"]){
         return [CaculateMinus minus:num3 b:num4];
 
-    }else if ([symbol isEqualToString:@"*"] || [symbol isEqualToString:@"x"]){
+    }else if ([symbol isEqualToString:@"*"] || [symbol isEqualToString:@"×"]){
         return [CaculateMultiply multiply:num3 b:num4];
 
     }else if ([symbol isEqualToString:@"÷"] || [symbol isEqualToString:@"/"]){

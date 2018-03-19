@@ -45,7 +45,7 @@
     
     if ([self isEqualToString:@"+"] || [self isEqualToString:@"-"]) {
         return CaculateSymbol_Priority_middle;
-    }else if ([self isEqualToString:@"x"] || [self isEqualToString:@"*"] || [self isEqualToString:@"/"] || [self isEqualToString:@"÷"]){
+    }else if ([self isEqualToString:@"×"] || [self isEqualToString:@"*"] || [self isEqualToString:@"/"] || [self isEqualToString:@"÷"]){
         return CaculateSymbol_Priority_high;
     }else if ([self isEqualToString:@"("] || [self isEqualToString:@")"]){
         return CaculateSymbol_Priority_low;
@@ -55,7 +55,7 @@
 
 - (BOOL)isCaculateSymbol{
     
-    if ([self isEqualToString:@"+"] || [self isEqualToString:@"-"] || [self isEqualToString:@"x"] || [self isEqualToString:@"*"] || [self isEqualToString:@"/"] || [self isEqualToString:@"÷"] || [self isEqualToString:@"("] || [self isEqualToString:@")"]) {
+    if ([self isEqualToString:@"+"] || [self isEqualToString:@"-"] || [self isEqualToString:@"×"] || [self isEqualToString:@"*"] || [self isEqualToString:@"/"] || [self isEqualToString:@"÷"] || [self isEqualToString:@"("] || [self isEqualToString:@")"]) {
         return YES;
     }else{
         return NO;
