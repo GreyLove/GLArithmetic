@@ -15,7 +15,20 @@ typedef enum : NSUInteger {
 } CaculateSymbol_Priority;
 
 @interface NSString (Caculate)
+- (BOOL)legalCaculate;
 - (NSArray*)analysisCaculate;
 - (CaculateSymbol_Priority)caculateSymbolPriority;
 - (BOOL)isCaculateSymbol;
+
+
+- (BOOL)isAddString;
+- (BOOL)isMinusString;
+- (BOOL)isDivideString;
+- (BOOL)isMultiplyString;
+- (BOOL)isLeftBracketString;
+- (BOOL)isRightBracketString;
+
+- (BOOL)isAddOrMinusString;
+- (BOOL)isMultiplyOrDivideString;
+
 @end

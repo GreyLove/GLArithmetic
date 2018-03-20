@@ -8,6 +8,8 @@
 #import "GLCaculate.h"
 #import "CaculateStack.h"
 #import "CaculateFactory.h"
+#import "CaculateSymbolString.h"
+
 @implementation GLCaculate
 //计算四则运算
 + (NSString*)caculateArithmeticString:(NSString*)str{
@@ -29,25 +31,24 @@
     for (NSInteger i = 0; i < arr.count; i++) {
         NSString *str = arr[i];
         if ([str isCaculateSymbol]) {//是符号
-            if ([str isEqualToString:@")"]) {//是右括号“）”
-                while (![[stack stack_top] isEqualToString:@"("]) { //弹栈直到遇见“（”
-                    if (![[stack stack_top] isEqualToString:@"("]
-                        || ![[stack stack_top] isEqualToString:@")"]) {
+            if ([str isRightBracketString]) {//是右括号“）”
+                while (![[stack stack_top] isLeftBracketString]) { //弹栈直到遇见“（”
+                    if (![[stack stack_top] isLeftBracketString]
+                        || ![[stack stack_top] isRightBracketString]) {
                         [newArr addObject:[stack stack_top]];//
                     }
                     [stack stack_pop];
                 }
-                if ([[stack stack_top] isEqualToString:@"("]) {
+                if ([[stack stack_top] isLeftBracketString]) {
                     [stack stack_pop];
                 }
                 
-                
             }else{//入栈
-                if ([str isEqualToString:@"("]) {
+                if ([str isLeftBracketString]) {
                     [stack stack_push:str];
                 }else{
                     while ([str caculateSymbolPriority] <= [[stack stack_top] caculateSymbolPriority] && [[stack stack_top] isCaculateSymbol]
-                           && ![[stack stack_top] isEqualToString:@"("])
+                           && ![[stack stack_top] isLeftBracketString])
                     {//弹出所有优先级大于或者等于该运算符的栈顶元素，然后将该运算符入栈
                         [newArr addObject:[stack stack_top]];
                         [stack stack_pop];
@@ -68,6 +69,8 @@
     }
     
     NSLog(@"newArr--%@&&&stack--%@",newArr,stack);
+    [stack stack_destory];
+    stack = nil;
     return (NSArray*)newArr;
 }
 
@@ -89,7 +92,7 @@
                 NSString *num2 = [stack stack_top];
                 [stack stack_pop];
                 double result = [CaculateFactory caculateWithNum1:num2 num2:num1 caculateSymbol:str];
-                NSString *result1 = [NSString stringWithFormat:@"%.03f",result];
+                NSString *result1 = [NSString stringWithFormat:@"%g",result];
                 [stack stack_push:result1];
             }
         }else{
@@ -97,7 +100,8 @@
         }
     }
     NSString * b = [stack stack_bottom];
-    
+    [stack stack_destory];
+    stack = nil;
     return b;
 }
 @end

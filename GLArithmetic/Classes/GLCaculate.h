@@ -10,14 +10,11 @@
 
 /*
  用法，暂时无法算分数
- NSString *str = @"(1.2+4)+10/5*4";
+ NSString *str = @"2/4*8+(8+2)*4-4+8*1";
  
  //1.
- NSArray *arr = [str analysisCaculate];
- NSString *b = [GLCaculate caculateArithmeticArray:arr];
- 
- //2.
  NSString *b1 = [GLCaculate caculateArithmeticString:str];
+ 
  */
 
 @interface GLCaculate : NSObject
