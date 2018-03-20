@@ -18,13 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSString *str = @"3×4";
+    NSString *str = @"2/4*8+(8+2)*4-4+8*1";
     
     //1.
-    NSArray *arr = [str analysisCaculate];
-    NSString *b = [GLCaculate caculateArithmeticArray:arr];
-    
-    //2.
     NSString *b1 = [GLCaculate caculateArithmeticString:str];
 }
 

@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0204778B563F6F4632E041AD140ED051 /* CaculateMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = AB69AB22FB53C87ABC6B8C0043C8566B /* CaculateMultiply.m */; };
-		15117F2F255A2866247E78EE43FA7B82 /* CaculateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7328C8DB4995B006223557400EE24E9E /* CaculateFactory.m */; };
+		032DD6D921D6978317350AC837A2C3B0 /* NSString+Caculate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF5B100812826BDB36DD36465265D34 /* NSString+Caculate.m */; };
+		04F3F0576BD8D769DA5CBD29ACC0A8CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1FD964812CE006E516669557CAB55690 /* GLArithmetic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C630DBE7ABAADC51B7115519420EF62E /* GLArithmetic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2880F46C248DDA56FFB2D1E54AC6D6B9 /* Pods-GLArithmetic_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA43269A24833676742F511E8103F7C3 /* Pods-GLArithmetic_Tests-dummy.m */; };
-		321B0243931908F7091E73B503CBCFD1 /* GLArithmetic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6378E8581F16A96D389DE5AD37CD37E /* GLArithmetic-dummy.m */; };
 		43DBAC288C7833C795F926EED71DF605 /* Pods-GLArithmetic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FE3EE76DF1E5FDA70EAC15C464932 /* Pods-GLArithmetic_Example-dummy.m */; };
-		4CFAABFDD193DE8745B282340DBE6EC6 /* NSString+Caculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 833418933F860D223D187BC94CEDD0DC /* NSString+Caculate.m */; };
-		5A6F8B0559B2A37EDC0586B374072FB4 /* CaculateAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8829187971F5470D99A15617233CBCF4 /* CaculateAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6981E580FD9C875025187CFA60F90222 /* CaculateStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 643DCFE4F4EB4D05FB939BA22E892026 /* CaculateStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BD8F068490D680A247EEEAC2E680804 /* CaculateMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A427066B50A66A61C8A20375818CA22 /* CaculateMinus.m */; };
 		6E3235DFE421AE3F127A3100A57A524B /* Pods-GLArithmetic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BE2E82E2B2710C68BBB081FAB27F58 /* Pods-GLArithmetic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70DD7B0D772609757D947BA335B27C36 /* CaculateMultiply.h in Headers */ = {isa = PBXBuildFile; fileRef = B34C4DA24A8537EF1F9F5129EBA62791 /* CaculateMultiply.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DF5E8CE288D7E4194B76ACF4CFED56 /* CaculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC9BBEA2FA91AAFA643747967525F7 /* CaculateDivide.m */; };
-		87E0C68D7996F4D63AD10A982B05CEC7 /* GLCaculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3441A76ED307897E66C6C1257332EF /* GLCaculate.m */; };
-		90B0E5C323A9A71FCC71D2E159C71DA8 /* GLArithmetic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD137A03B4129CEDF087929E4298FAA4 /* GLArithmetic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		939DD59D8D6F9FC5C7BBE6B91CE479E7 /* CaculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A7271DA97D28218116E21CF2053B6E07 /* CaculateAdd.m */; };
-		98C401E8E2A1703968F2ABFEE9653CF1 /* CaculateMinus.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1092CFF1409BFFF4178C85A441858A /* CaculateMinus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DBB7DC597AFD5EA4F39FA03FAA93A83 /* CaculateSymbolString.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9590D149D6534934B7F09C4E3E6990 /* CaculateSymbolString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C588286C84E9A17AF136C1B30C7355 /* NSString+Caculate.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EB14D28E06BD4F59881B367A843745 /* NSString+Caculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BF21866AA6969F11DF8311F914A2F2 /* CaculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F986C70E046742B8A742CF024594F0 /* CaculateDivide.m */; };
+		A5C305A703C825DED87F5B3A83BF6B87 /* CaculateDivide.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BCEC03F09EDBC270EA253D059FC0209 /* CaculateDivide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD206DA126BE30F94D2EA28CC9BF63A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B531E197CDF73F4F6946B091C9B1B587 /* GLCaculate.h in Headers */ = {isa = PBXBuildFile; fileRef = CC59247A171728B7B44FCD84E40F74E4 /* GLCaculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1377801355EFDA8324F35E50BAD7500 /* CaculateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDB18511E7085E8333876ECC0EF1CF /* CaculateFactory.m */; };
+		BA219BAEA8E6A0AB6830A5B2CCD0D9B9 /* GLCaculate.h in Headers */ = {isa = PBXBuildFile; fileRef = E29AEB0A867FF7BD30300179D5EC2C92 /* GLCaculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB6F8D9F0CA7E110A04B56631FA6310D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CC18FE77D937867885BC5E9A7DAB03BD /* CaculateFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C472E92A7DD3D33B1B19D68B0BAB3C7 /* CaculateFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC4EA07C7C5345EA0C492876131B76F5 /* CaculateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BAFC50BDC3428686727E91790F63C3 /* CaculateStack.m */; };
+		C35C5AABB5FD9EC95BEBE74ACEE0A675 /* CaculateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1199A2ECBEC4735864718A1E878B6208 /* CaculateStack.m */; };
+		C81ADFF1C57965F5EEA8DB8915669318 /* CaculateFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 052CA8374FD0A90218DC6FD6D5B14142 /* CaculateFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D397646BA92560DD482FF1E079F80A8B /* CaculateMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB98E78A642F370ECF5450F524B93B /* CaculateMultiply.m */; };
+		D64A199CC22AD1EACA2D10CAB2FEE56C /* GLCaculate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05222EE883AD27260B6773F21CDBD1 /* GLCaculate.m */; };
 		DF794BFA1CF98B0E95113BABE84DC7E9 /* Pods-GLArithmetic_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E32479C1BCCAB7AFC2FD9C9351289182 /* Pods-GLArithmetic_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F69A6902D7712D410F4781B1912CDE9B /* CaculateDivide.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DC5DDE22B99F8513F47723A2028061 /* CaculateDivide.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6EF54759CDF728D1B9F51A35902C304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FDA5D918DB8B2E15504C775B127E8D7E /* NSString+Caculate.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F7DA1EE74CE067C430403B97C68A58 /* NSString+Caculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFBA2DA71F8BAAA0212B51E8C7DA90AE /* CaculateMultiply.h in Headers */ = {isa = PBXBuildFile; fileRef = F46BA62D57669EA150D85F529866319D /* CaculateMultiply.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3D6524E4985ACA17195FF477286ABB3 /* CaculateMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E1465EDD50CF1F0D6508822E741109 /* CaculateMinus.m */; };
+		EB0E094656BDD9B91098DA53CDF42DE9 /* CaculateStack.h in Headers */ = {isa = PBXBuildFile; fileRef = D355AE97E3B778BC7F4AF42182BCD637 /* CaculateStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF11E81EC266622BE8AB92A1778A5751 /* GLArithmetic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB15DF4028135D959A8204DCD9870B /* GLArithmetic-dummy.m */; };
+		F43CB07F8E3D3CC0A7FACCC7A531F9DE /* CaculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7083FADEB7AB2BB44BA1742AB4161D41 /* CaculateAdd.m */; };
+		F8F1CDD015F3C9FCE0AB026D75C56013 /* CaculateAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 304C85855AD7215E70E7A432C9061311 /* CaculateAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC846F97E2749E6D776163510F3B00F /* CaculateMinus.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB0CBF5972E400D86F58AFE77B3DE5E /* CaculateMinus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,70 +40,71 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 801E657E770CBD271D8BCFBE6575A740;
+			remoteGlobalIDString = 51AD1192CA81D6DACAA6C059CEC7AA46;
 			remoteInfo = GLArithmetic;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022139E9D84795DCE0C31527AAC37212 /* GLArithmetic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLArithmetic-prefix.pch"; sourceTree = "<group>"; };
+		052CA8374FD0A90218DC6FD6D5B14142 /* CaculateFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CaculateFactory.h; sourceTree = "<group>"; };
 		06C4AB453EC7D9D5CD975C7590B1F5B3 /* Pods-GLArithmetic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLArithmetic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2A427066B50A66A61C8A20375818CA22 /* CaculateMinus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CaculateMinus.m; path = GLArithmetic/Classes/CaculateMinus.m; sourceTree = "<group>"; };
+		0BCEC03F09EDBC270EA253D059FC0209 /* CaculateDivide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CaculateDivide.h; sourceTree = "<group>"; };
+		1199A2ECBEC4735864718A1E878B6208 /* CaculateStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CaculateStack.m; sourceTree = "<group>"; };
+		1A85B4214E4DA73107CE037EB1A521A7 /* GLArithmetic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLArithmetic-prefix.pch"; sourceTree = "<group>"; };
 		2AAF32B826E41AC571150D39AC0735A7 /* Pods-GLArithmetic_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLArithmetic_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		301B286D8B5C96194F1EB4F35DA6F115 /* Pods-GLArithmetic_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLArithmetic_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		302DB7AC36B5DA8A1D6D5D616E5E57A5 /* GLArithmetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GLArithmetic.framework; path = GLArithmetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31DC5DDE22B99F8513F47723A2028061 /* CaculateDivide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CaculateDivide.h; path = GLArithmetic/Classes/CaculateDivide.h; sourceTree = "<group>"; };
+		304C85855AD7215E70E7A432C9061311 /* CaculateAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CaculateAdd.h; sourceTree = "<group>"; };
 		35BEE7D16314593D84111492CEF6DAF4 /* Pods-GLArithmetic_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLArithmetic_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		38328F2E2100CF6CD536B389F2485BE6 /* Pods-GLArithmetic_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLArithmetic_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C472E92A7DD3D33B1B19D68B0BAB3C7 /* CaculateFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CaculateFactory.h; path = GLArithmetic/Classes/CaculateFactory.h; sourceTree = "<group>"; };
+		3FDDB18511E7085E8333876ECC0EF1CF /* CaculateFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CaculateFactory.m; sourceTree = "<group>"; };
+		415E0CD1157F43F775DCD0E5940DA5E1 /* GLArithmetic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GLArithmetic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		452A3D2663F4BFF65AEF31481F553662 /* Pods-GLArithmetic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLArithmetic_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4C3441A76ED307897E66C6C1257332EF /* GLCaculate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLCaculate.m; path = GLArithmetic/Classes/GLCaculate.m; sourceTree = "<group>"; };
-		5A1FCB4C7E5EDEB63FCC8ACFBB0D66DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		643DCFE4F4EB4D05FB939BA22E892026 /* CaculateStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CaculateStack.h; path = GLArithmetic/Classes/CaculateStack.h; sourceTree = "<group>"; };
+		45E1465EDD50CF1F0D6508822E741109 /* CaculateMinus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CaculateMinus.m; sourceTree = "<group>"; };
+		60F986C70E046742B8A742CF024594F0 /* CaculateDivide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CaculateDivide.m; sourceTree = "<group>"; };
 		6550389F0B33CE22E4D60CF183FF9B41 /* Pods_GLArithmetic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLArithmetic_Tests.framework; path = "Pods-GLArithmetic_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7328C8DB4995B006223557400EE24E9E /* CaculateFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CaculateFactory.m; path = GLArithmetic/Classes/CaculateFactory.m; sourceTree = "<group>"; };
-		833418933F860D223D187BC94CEDD0DC /* NSString+Caculate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Caculate.m"; path = "GLArithmetic/Classes/NSString+Caculate.m"; sourceTree = "<group>"; };
+		6AA968CD6469E1DE0183D83B1D959BDE /* GLArithmetic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLArithmetic.xcconfig; sourceTree = "<group>"; };
+		7083FADEB7AB2BB44BA1742AB4161D41 /* CaculateAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CaculateAdd.m; sourceTree = "<group>"; };
+		76EB14D28E06BD4F59881B367A843745 /* NSString+Caculate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Caculate.h"; path = "GLArithmetic/Classes/NSString+Caculate.h"; sourceTree = "<group>"; };
 		83C5040764E9A5B2E2AFE79F32CA9425 /* Pods-GLArithmetic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GLArithmetic_Tests.modulemap"; sourceTree = "<group>"; };
 		844CDAE1CD85228E4EB81A704885B2EE /* Pods-GLArithmetic_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLArithmetic_Example-resources.sh"; sourceTree = "<group>"; };
-		8829187971F5470D99A15617233CBCF4 /* CaculateAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CaculateAdd.h; path = GLArithmetic/Classes/CaculateAdd.h; sourceTree = "<group>"; };
-		89F7DA1EE74CE067C430403B97C68A58 /* NSString+Caculate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Caculate.h"; path = "GLArithmetic/Classes/NSString+Caculate.h"; sourceTree = "<group>"; };
-		8CAC9BBEA2FA91AAFA643747967525F7 /* CaculateDivide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CaculateDivide.m; path = GLArithmetic/Classes/CaculateDivide.m; sourceTree = "<group>"; };
+		85F4C35E0F95860136AD93CE4BEA6473 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8AB0CBF5972E400D86F58AFE77B3DE5E /* CaculateMinus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CaculateMinus.h; sourceTree = "<group>"; };
+		8B9D0D6044A472E9285B1E9D2CE96387 /* GLArithmetic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GLArithmetic.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BA9D9261FABEEF0FB31AB11BD9D582C /* GLArithmetic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GLArithmetic.modulemap; sourceTree = "<group>"; };
-		9F1092CFF1409BFFF4178C85A441858A /* CaculateMinus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CaculateMinus.h; path = GLArithmetic/Classes/CaculateMinus.h; sourceTree = "<group>"; };
+		A0B5A5A9E5EA41DE1529B0BD5E71DE79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A0FB98E78A642F370ECF5450F524B93B /* CaculateMultiply.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CaculateMultiply.m; sourceTree = "<group>"; };
 		A24FE3EE76DF1E5FDA70EAC15C464932 /* Pods-GLArithmetic_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLArithmetic_Example-dummy.m"; sourceTree = "<group>"; };
-		A7271DA97D28218116E21CF2053B6E07 /* CaculateAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CaculateAdd.m; path = GLArithmetic/Classes/CaculateAdd.m; sourceTree = "<group>"; };
-		A8BAFC50BDC3428686727E91790F63C3 /* CaculateStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CaculateStack.m; path = GLArithmetic/Classes/CaculateStack.m; sourceTree = "<group>"; };
-		AB69AB22FB53C87ABC6B8C0043C8566B /* CaculateMultiply.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CaculateMultiply.m; path = GLArithmetic/Classes/CaculateMultiply.m; sourceTree = "<group>"; };
-		AD137A03B4129CEDF087929E4298FAA4 /* GLArithmetic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLArithmetic-umbrella.h"; sourceTree = "<group>"; };
 		AE32D408E93DD3DE01FC5A5EF910268B /* Pods-GLArithmetic_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLArithmetic_Tests-resources.sh"; sourceTree = "<group>"; };
-		B34C4DA24A8537EF1F9F5129EBA62791 /* CaculateMultiply.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CaculateMultiply.h; path = GLArithmetic/Classes/CaculateMultiply.h; sourceTree = "<group>"; };
+		B5CB15DF4028135D959A8204DCD9870B /* GLArithmetic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLArithmetic-dummy.m"; sourceTree = "<group>"; };
+		BAF5B100812826BDB36DD36465265D34 /* NSString+Caculate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Caculate.m"; path = "GLArithmetic/Classes/NSString+Caculate.m"; sourceTree = "<group>"; };
+		BC05222EE883AD27260B6773F21CDBD1 /* GLCaculate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLCaculate.m; path = GLArithmetic/Classes/GLCaculate.m; sourceTree = "<group>"; };
 		BCD5F32E2245EA03BE36C88D8E94710A /* Pods-GLArithmetic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GLArithmetic_Example.modulemap"; sourceTree = "<group>"; };
 		BD7206BC581323F0399E41DEF533097C /* Pods-GLArithmetic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLArithmetic_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFFA8F0586760866BFF6DDDEBDCB5CE7 /* Pods-GLArithmetic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLArithmetic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3BE2E82E2B2710C68BBB081FAB27F58 /* Pods-GLArithmetic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLArithmetic_Example-umbrella.h"; sourceTree = "<group>"; };
-		C4478D5DA34E0EDF823DEF74C600FAD7 /* GLArithmetic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GLArithmetic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C4EADEEF33B92B28A3A3CF0CF3F8FCFB /* Pods-GLArithmetic_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLArithmetic_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CA7A69D60C776562315FB249DC521125 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C630DBE7ABAADC51B7115519420EF62E /* GLArithmetic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLArithmetic-umbrella.h"; sourceTree = "<group>"; };
 		CA889B1D86BCCFD4E61236F552EF7E6F /* Pods_GLArithmetic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLArithmetic_Example.framework; path = "Pods-GLArithmetic_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC59247A171728B7B44FCD84E40F74E4 /* GLCaculate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLCaculate.h; path = GLArithmetic/Classes/GLCaculate.h; sourceTree = "<group>"; };
-		CD6D8E523E452C20923095018476307F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF3B7CA285F791B331D386059BF5601B /* GLArithmetic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLArithmetic.xcconfig; sourceTree = "<group>"; };
+		D355AE97E3B778BC7F4AF42182BCD637 /* CaculateStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CaculateStack.h; sourceTree = "<group>"; };
+		DF9590D149D6534934B7F09C4E3E6990 /* CaculateSymbolString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CaculateSymbolString.h; path = GLArithmetic/Classes/CaculateSymbolString.h; sourceTree = "<group>"; };
 		E06B6F91581DAFD3AE6AF434F0690EC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29AEB0A867FF7BD30300179D5EC2C92 /* GLCaculate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLCaculate.h; path = GLArithmetic/Classes/GLCaculate.h; sourceTree = "<group>"; };
 		E32479C1BCCAB7AFC2FD9C9351289182 /* Pods-GLArithmetic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLArithmetic_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E59CCB58DAD3853DBE9E5C06E4A3ADE1 /* Pods-GLArithmetic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLArithmetic_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E6378E8581F16A96D389DE5AD37CD37E /* GLArithmetic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLArithmetic-dummy.m"; sourceTree = "<group>"; };
+		ED8DDF6171AF82C8A6E86FB5E41EE849 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46BA62D57669EA150D85F529866319D /* CaculateMultiply.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CaculateMultiply.h; sourceTree = "<group>"; };
 		F873496F2B38CBF4315A2B9A5E0ACD91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA43269A24833676742F511E8103F7C3 /* Pods-GLArithmetic_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLArithmetic_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4EB0053A24AC4A907A29D89D604174F5 /* Frameworks */ = {
+		89DF98A78D0A3407D897C5DA29EB4380 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6EF54759CDF728D1B9F51A35902C304 /* Foundation.framework in Frameworks */,
+				04F3F0576BD8D769DA5CBD29ACC0A8CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,19 +154,25 @@
 			path = "Target Support Files/Pods-GLArithmetic_Tests";
 			sourceTree = "<group>";
 		};
-		641E31498C40C1FB2E8376DE76A76329 /* Development Pods */ = {
+		2E79843B2F0694F1BD44F4DEF21D2297 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F73D3C8A95D264E09D947FA7409E7109 /* GLArithmetic */,
+				8B9D0D6044A472E9285B1E9D2CE96387 /* GLArithmetic.modulemap */,
+				6AA968CD6469E1DE0183D83B1D959BDE /* GLArithmetic.xcconfig */,
+				B5CB15DF4028135D959A8204DCD9870B /* GLArithmetic-dummy.m */,
+				1A85B4214E4DA73107CE037EB1A521A7 /* GLArithmetic-prefix.pch */,
+				C630DBE7ABAADC51B7115519420EF62E /* GLArithmetic-umbrella.h */,
+				ED8DDF6171AF82C8A6E86FB5E41EE849 /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GLArithmetic";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				641E31498C40C1FB2E8376DE76A76329 /* Development Pods */,
+				C55EE65A833642499CAFCC75176C7985 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8831DCDFB8DEF3443B6E1DA8C3D779B3 /* Products */,
 				157EE6658C2D95FFDCC704BCC038728D /* Targets Support Files */,
@@ -189,18 +197,14 @@
 			path = "Target Support Files/Pods-GLArithmetic_Example";
 			sourceTree = "<group>";
 		};
-		8162AE2304163003B810BB079E0E46EE /* Support Files */ = {
+		85FF401802E9D141A97D35F4595CC8D3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9BA9D9261FABEEF0FB31AB11BD9D582C /* GLArithmetic.modulemap */,
-				DF3B7CA285F791B331D386059BF5601B /* GLArithmetic.xcconfig */,
-				E6378E8581F16A96D389DE5AD37CD37E /* GLArithmetic-dummy.m */,
-				022139E9D84795DCE0C31527AAC37212 /* GLArithmetic-prefix.pch */,
-				AD137A03B4129CEDF087929E4298FAA4 /* GLArithmetic-umbrella.h */,
-				CD6D8E523E452C20923095018476307F /* Info.plist */,
+				415E0CD1157F43F775DCD0E5940DA5E1 /* GLArithmetic.podspec */,
+				85F4C35E0F95860136AD93CE4BEA6473 /* LICENSE */,
+				A0B5A5A9E5EA41DE1529B0BD5E71DE79 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GLArithmetic";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8831DCDFB8DEF3443B6E1DA8C3D779B3 /* Products */ = {
@@ -213,12 +217,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		89E69C64A9CB7DCD2EA486379EF45397 /* CaculateArithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				304C85855AD7215E70E7A432C9061311 /* CaculateAdd.h */,
+				7083FADEB7AB2BB44BA1742AB4161D41 /* CaculateAdd.m */,
+				0BCEC03F09EDBC270EA253D059FC0209 /* CaculateDivide.h */,
+				60F986C70E046742B8A742CF024594F0 /* CaculateDivide.m */,
+				052CA8374FD0A90218DC6FD6D5B14142 /* CaculateFactory.h */,
+				3FDDB18511E7085E8333876ECC0EF1CF /* CaculateFactory.m */,
+				8AB0CBF5972E400D86F58AFE77B3DE5E /* CaculateMinus.h */,
+				45E1465EDD50CF1F0D6508822E741109 /* CaculateMinus.m */,
+				F46BA62D57669EA150D85F529866319D /* CaculateMultiply.h */,
+				A0FB98E78A642F370ECF5450F524B93B /* CaculateMultiply.m */,
+			);
+			name = CaculateArithmetic;
+			path = GLArithmetic/Classes/CaculateArithmetic;
+			sourceTree = "<group>";
+		};
+		B8114F633F434D83F8496EAC4450DF98 /* CaculateTool */ = {
+			isa = PBXGroup;
+			children = (
+				D355AE97E3B778BC7F4AF42182BCD637 /* CaculateStack.h */,
+				1199A2ECBEC4735864718A1E878B6208 /* CaculateStack.m */,
+			);
+			name = CaculateTool;
+			path = GLArithmetic/Classes/CaculateTool;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C55EE65A833642499CAFCC75176C7985 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8E4A54947F3E4BE4A812AF7A270B18B /* GLArithmetic */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -229,37 +269,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D871CDBD848F2E3C83460B70391DF9FE /* Pod */ = {
+		D8E4A54947F3E4BE4A812AF7A270B18B /* GLArithmetic */ = {
 			isa = PBXGroup;
 			children = (
-				C4478D5DA34E0EDF823DEF74C600FAD7 /* GLArithmetic.podspec */,
-				CA7A69D60C776562315FB249DC521125 /* LICENSE */,
-				5A1FCB4C7E5EDEB63FCC8ACFBB0D66DD /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F73D3C8A95D264E09D947FA7409E7109 /* GLArithmetic */ = {
-			isa = PBXGroup;
-			children = (
-				8829187971F5470D99A15617233CBCF4 /* CaculateAdd.h */,
-				A7271DA97D28218116E21CF2053B6E07 /* CaculateAdd.m */,
-				31DC5DDE22B99F8513F47723A2028061 /* CaculateDivide.h */,
-				8CAC9BBEA2FA91AAFA643747967525F7 /* CaculateDivide.m */,
-				3C472E92A7DD3D33B1B19D68B0BAB3C7 /* CaculateFactory.h */,
-				7328C8DB4995B006223557400EE24E9E /* CaculateFactory.m */,
-				9F1092CFF1409BFFF4178C85A441858A /* CaculateMinus.h */,
-				2A427066B50A66A61C8A20375818CA22 /* CaculateMinus.m */,
-				B34C4DA24A8537EF1F9F5129EBA62791 /* CaculateMultiply.h */,
-				AB69AB22FB53C87ABC6B8C0043C8566B /* CaculateMultiply.m */,
-				643DCFE4F4EB4D05FB939BA22E892026 /* CaculateStack.h */,
-				A8BAFC50BDC3428686727E91790F63C3 /* CaculateStack.m */,
-				CC59247A171728B7B44FCD84E40F74E4 /* GLCaculate.h */,
-				4C3441A76ED307897E66C6C1257332EF /* GLCaculate.m */,
-				89F7DA1EE74CE067C430403B97C68A58 /* NSString+Caculate.h */,
-				833418933F860D223D187BC94CEDD0DC /* NSString+Caculate.m */,
-				D871CDBD848F2E3C83460B70391DF9FE /* Pod */,
-				8162AE2304163003B810BB079E0E46EE /* Support Files */,
+				DF9590D149D6534934B7F09C4E3E6990 /* CaculateSymbolString.h */,
+				E29AEB0A867FF7BD30300179D5EC2C92 /* GLCaculate.h */,
+				BC05222EE883AD27260B6773F21CDBD1 /* GLCaculate.m */,
+				76EB14D28E06BD4F59881B367A843745 /* NSString+Caculate.h */,
+				BAF5B100812826BDB36DD36465265D34 /* NSString+Caculate.m */,
+				89E69C64A9CB7DCD2EA486379EF45397 /* CaculateArithmetic */,
+				B8114F633F434D83F8496EAC4450DF98 /* CaculateTool */,
+				85FF401802E9D141A97D35F4595CC8D3 /* Pod */,
+				2E79843B2F0694F1BD44F4DEF21D2297 /* Support Files */,
 			);
 			name = GLArithmetic;
 			path = ../..;
@@ -276,22 +297,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5EDA70122B6AB5180879171CBE067682 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A6F8B0559B2A37EDC0586B374072FB4 /* CaculateAdd.h in Headers */,
-				F69A6902D7712D410F4781B1912CDE9B /* CaculateDivide.h in Headers */,
-				CC18FE77D937867885BC5E9A7DAB03BD /* CaculateFactory.h in Headers */,
-				98C401E8E2A1703968F2ABFEE9653CF1 /* CaculateMinus.h in Headers */,
-				70DD7B0D772609757D947BA335B27C36 /* CaculateMultiply.h in Headers */,
-				6981E580FD9C875025187CFA60F90222 /* CaculateStack.h in Headers */,
-				90B0E5C323A9A71FCC71D2E159C71DA8 /* GLArithmetic-umbrella.h in Headers */,
-				B531E197CDF73F4F6946B091C9B1B587 /* GLCaculate.h in Headers */,
-				FDA5D918DB8B2E15504C775B127E8D7E /* NSString+Caculate.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		68073F31828D501CEE027A02922E0E77 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,16 +305,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD95846B797EFE7AF564932A57C4ECFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F1CDD015F3C9FCE0AB026D75C56013 /* CaculateAdd.h in Headers */,
+				A5C305A703C825DED87F5B3A83BF6B87 /* CaculateDivide.h in Headers */,
+				C81ADFF1C57965F5EEA8DB8915669318 /* CaculateFactory.h in Headers */,
+				FAC846F97E2749E6D776163510F3B00F /* CaculateMinus.h in Headers */,
+				DFBA2DA71F8BAAA0212B51E8C7DA90AE /* CaculateMultiply.h in Headers */,
+				EB0E094656BDD9B91098DA53CDF42DE9 /* CaculateStack.h in Headers */,
+				8DBB7DC597AFD5EA4F39FA03FAA93A83 /* CaculateSymbolString.h in Headers */,
+				1FD964812CE006E516669557CAB55690 /* GLArithmetic-umbrella.h in Headers */,
+				BA219BAEA8E6A0AB6830A5B2CCD0D9B9 /* GLCaculate.h in Headers */,
+				92C588286C84E9A17AF136C1B30C7355 /* NSString+Caculate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		801E657E770CBD271D8BCFBE6575A740 /* GLArithmetic */ = {
+		51AD1192CA81D6DACAA6C059CEC7AA46 /* GLArithmetic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43D486BDC686F04781740BFBB5362E51 /* Build configuration list for PBXNativeTarget "GLArithmetic" */;
+			buildConfigurationList = 2A1F046C62C9E4EE27D76C14E83B560C /* Build configuration list for PBXNativeTarget "GLArithmetic" */;
 			buildPhases = (
-				F9E8C02BD95A0EE85AD01A85B40CEE96 /* Sources */,
-				4EB0053A24AC4A907A29D89D604174F5 /* Frameworks */,
-				5EDA70122B6AB5180879171CBE067682 /* Headers */,
+				6B2A2A89235382BCBA8AE8BAEB99F1C4 /* Sources */,
+				89DF98A78D0A3407D897C5DA29EB4380 /* Frameworks */,
+				DD95846B797EFE7AF564932A57C4ECFE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -376,7 +398,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				801E657E770CBD271D8BCFBE6575A740 /* GLArithmetic */,
+				51AD1192CA81D6DACAA6C059CEC7AA46 /* GLArithmetic */,
 				E0A8DE39A2E1E70500CF4D513CA4DE94 /* Pods-GLArithmetic_Example */,
 				F292E90A019DA0BF52A069397BDBE4EB /* Pods-GLArithmetic_Tests */,
 			);
@@ -392,27 +414,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6B2A2A89235382BCBA8AE8BAEB99F1C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43CB07F8E3D3CC0A7FACCC7A531F9DE /* CaculateAdd.m in Sources */,
+				A5BF21866AA6969F11DF8311F914A2F2 /* CaculateDivide.m in Sources */,
+				B1377801355EFDA8324F35E50BAD7500 /* CaculateFactory.m in Sources */,
+				E3D6524E4985ACA17195FF477286ABB3 /* CaculateMinus.m in Sources */,
+				D397646BA92560DD482FF1E079F80A8B /* CaculateMultiply.m in Sources */,
+				C35C5AABB5FD9EC95BEBE74ACEE0A675 /* CaculateStack.m in Sources */,
+				EF11E81EC266622BE8AB92A1778A5751 /* GLArithmetic-dummy.m in Sources */,
+				D64A199CC22AD1EACA2D10CAB2FEE56C /* GLCaculate.m in Sources */,
+				032DD6D921D6978317350AC837A2C3B0 /* NSString+Caculate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A871701F4F82037B66637E15CD44A7D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				43DBAC288C7833C795F926EED71DF605 /* Pods-GLArithmetic_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9E8C02BD95A0EE85AD01A85B40CEE96 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				939DD59D8D6F9FC5C7BBE6B91CE479E7 /* CaculateAdd.m in Sources */,
-				84DF5E8CE288D7E4194B76ACF4CFED56 /* CaculateDivide.m in Sources */,
-				15117F2F255A2866247E78EE43FA7B82 /* CaculateFactory.m in Sources */,
-				6BD8F068490D680A247EEEAC2E680804 /* CaculateMinus.m in Sources */,
-				0204778B563F6F4632E041AD140ED051 /* CaculateMultiply.m in Sources */,
-				DC4EA07C7C5345EA0C492876131B76F5 /* CaculateStack.m in Sources */,
-				321B0243931908F7091E73B503CBCFD1 /* GLArithmetic-dummy.m in Sources */,
-				87E0C68D7996F4D63AD10A982B05CEC7 /* GLCaculate.m in Sources */,
-				4CFAABFDD193DE8745B282340DBE6EC6 /* NSString+Caculate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +444,7 @@
 		1D0AFC68643051784EB648BDCC0CDF98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GLArithmetic;
-			target = 801E657E770CBD271D8BCFBE6575A740 /* GLArithmetic */;
+			target = 51AD1192CA81D6DACAA6C059CEC7AA46 /* GLArithmetic */;
 			targetProxy = 55DE0DAB0B5A1093FE2A4DB1CBA1EF48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -586,36 +608,6 @@
 			};
 			name = Release;
 		};
-		5380D2542BF0C2AF2762311145EC661A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF3B7CA285F791B331D386059BF5601B /* GLArithmetic.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GLArithmetic/GLArithmetic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GLArithmetic/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GLArithmetic/GLArithmetic.modulemap";
-				PRODUCT_NAME = GLArithmetic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -703,9 +695,39 @@
 			};
 			name = Debug;
 		};
-		85536C25094317C27648D4CF29618EC4 /* Debug */ = {
+		80F27A3751A170A4836EB5FFA3C2418B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF3B7CA285F791B331D386059BF5601B /* GLArithmetic.xcconfig */;
+			baseConfigurationReference = 6AA968CD6469E1DE0183D83B1D959BDE /* GLArithmetic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLArithmetic/GLArithmetic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLArithmetic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GLArithmetic/GLArithmetic.modulemap";
+				PRODUCT_NAME = GLArithmetic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		984C6A11E97781C1EC0009A651CFB79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA968CD6469E1DE0183D83B1D959BDE /* GLArithmetic.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -744,20 +766,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2A1F046C62C9E4EE27D76C14E83B560C /* Build configuration list for PBXNativeTarget "GLArithmetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984C6A11E97781C1EC0009A651CFB79B /* Debug */,
+				80F27A3751A170A4836EB5FFA3C2418B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
 				731DC216E1A58545B559F6E0A2418060 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		43D486BDC686F04781740BFBB5362E51 /* Build configuration list for PBXNativeTarget "GLArithmetic" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85536C25094317C27648D4CF29618EC4 /* Debug */,
-				5380D2542BF0C2AF2762311145EC661A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -15,6 +15,7 @@
 #import "CaculateFactory.h"
 #import "CaculateMinus.h"
 #import "CaculateMultiply.h"
+#import "CaculateSymbolString.h"
 #import "CaculateStack.h"
 #import "GLCaculate.h"
 #import "NSString+Caculate.h"
