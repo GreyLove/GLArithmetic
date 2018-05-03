@@ -1,5 +1,5 @@
 PODS:
-  - GLArithmetic (0.1.0)
+  - GLArithmetic (0.1.1)
 
 DEPENDENCIES:
   - GLArithmetic (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GLArithmetic: 584d378f21256484d392e7744b62b3c9b73242eb
+  GLArithmetic: d4cd3440fbf7c8bb8269320af206767030f2f91f
 
 PODFILE CHECKSUM: 5fd716320dfaa5735f8b98acef1c263505a4086b
 

@@ -1,6 +1,6 @@
 {
   "name": "GLArithmetic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "GLArithmetic.",
   "description": "GLArithmetic Caculate",
   "homepage": "https://gitee.com/guoleiCoder",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://gitee.com/guoleiCoder/Arithmetic.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"

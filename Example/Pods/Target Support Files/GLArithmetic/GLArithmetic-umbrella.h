@@ -10,15 +10,8 @@
 #endif
 #endif
 
-#import "CaculateAdd.h"
-#import "CaculateDivide.h"
-#import "CaculateFactory.h"
-#import "CaculateMinus.h"
-#import "CaculateMultiply.h"
-#import "CaculateSymbolString.h"
-#import "CaculateStack.h"
-#import "GLCaculate.h"
-#import "NSString+Caculate.h"
+#import "OperatorCaculateFraction.h"
+#import "OperatorExpressionHandle.h"
 
 FOUNDATION_EXPORT double GLArithmeticVersionNumber;
 FOUNDATION_EXPORT const unsigned char GLArithmeticVersionString[];
