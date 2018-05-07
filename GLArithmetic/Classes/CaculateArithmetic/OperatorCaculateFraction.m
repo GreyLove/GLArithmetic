@@ -8,6 +8,7 @@
 
 #import "OperatorCaculateFraction.h"
 #import "OperatorExpressionHandle.h"
+#import "NSString+ArithmeticRegular.h"
 
 #define kDecimalNumberWithString(v) [NSDecimalNumber decimalNumberWithString:v]
 #define kDecimalNumberPowerOf10(v,power) [v decimalNumberByMultiplyingByPowerOf10:power]
@@ -26,12 +27,17 @@
     NSString *infixexp2 = [infixexp1 stringByReplacingOccurrencesOfString:@"×" withString:@"*"];
     NSString *infixexp3 = [infixexp2 stringByReplacingOccurrencesOfString:@"÷" withString:@"/"];
     
-    NSMutableArray *postfixExp = (NSMutableArray *)[OperatorExpressionHandle postfixExpWithInfixExp:infixexp3];
+    if ([infixexp3 isValidArithmeticWithErrorString:errorString]) {//判断表达式是否有效
+        NSMutableArray *postfixExp = (NSMutableArray *)[OperatorExpressionHandle postfixExpWithInfixExp:infixexp3];
+        
+        NSString *result = [self calculateWithPosfixExpF:postfixExp errorString:errorString];
+        result = [self ireducibleFraction:result];
+        
+        return result;
+    }else{
+        return nil;
+    }
     
-    NSString *result = [self calculateWithPosfixExpF:postfixExp errorString:errorString];
-    result = [self ireducibleFraction:result];
-    
-    return result;
 }
 
 //用后缀表达式计算结果 guolei
@@ -70,7 +76,7 @@
                     [mutableString appendString:numberStr2];
                     [mutableString appendString:currentStr];
                     [mutableString appendString:numberStr1];
-                    if ([numberStr1 isEqualToString:@"0"] || [numberStr1 isEqualToString:@"-0"]) {
+                    if ([numberStr1 isZero]) {
                         *errorString = @"分母或除数不能为0";
                         return nil;
                     }

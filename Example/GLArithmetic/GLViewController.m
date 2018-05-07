@@ -30,32 +30,35 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSInteger n = 10000;
-    NSMutableArray *arr1 = [NSMutableArray array];
-    for (NSInteger i = 0; i < n; i++) {
-        Node *node = [self create:5 fatherNode:nil];
-        NSMutableArray *arr = [NSMutableArray array];
-        [self print:node arr:arr ];
-        NSString *tt = [arr componentsJoinedByString:@""];
-        [arr1 addObject:tt];
-    }
-    
-    NSArray *arr = arr1;
-    
-    NSLog(@"%@",arr);
-    //
-    CFTimeInterval cu = CFAbsoluteTimeGetCurrent();
-    for (NSString *exp in arr) {
-        NSString *result1;
-        NSString *result = [OperatorCaculateFraction calculateFraction:exp errorString:nil];
-        result1 = [OperatorCaculateFraction fractionTranslatePoint:result];
-        //        NSLog(@"%@===%@",result,result1);
-    }
-    CFTimeInterval cu1 = CFAbsoluteTimeGetCurrent();
-    
-    NSLog(@"%f--%f",cu1-cu,(cu1-cu)/n);
+//    NSInteger n = 10000;
+//    NSMutableArray *arr1 = [NSMutableArray array];
+//    for (NSInteger i = 0; i < n; i++) {
+//        Node *node = [self create:5 fatherNode:nil];
+//        NSMutableArray *arr = [NSMutableArray array];
+//        [self print:node arr:arr ];
+//        NSString *tt = [arr componentsJoinedByString:@""];
+//        [arr1 addObject:tt];
+//    }
+//
+//    NSArray *arr = arr1;
+//
+//    NSLog(@"%@",arr);
+//    //
+//    CFTimeInterval cu = CFAbsoluteTimeGetCurrent();
+//    for (NSString *exp in arr) {
+//        NSString *result1;
+//        NSString *result = [OperatorCaculateFraction calculateFraction:exp errorString:nil];
+//        result1 = [OperatorCaculateFraction fractionTranslatePoint:result];
+//        //        NSLog(@"%@===%@",result,result1);
+//    }
+//    CFTimeInterval cu1 = CFAbsoluteTimeGetCurrent();
+//
+//    NSLog(@"%f--%f",cu1-cu,(cu1-cu)/n);
     
 
+
+//    NSString *err = nil;
+//    NSString *result = [OperatorCaculateFraction calculateFraction:@"4/08.00" errorString:&err];
 
     
 }
