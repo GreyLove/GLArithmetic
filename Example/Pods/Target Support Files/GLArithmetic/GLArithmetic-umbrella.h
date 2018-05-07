@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+ArithmeticRegular.h"
 #import "OperatorCaculateFraction.h"
 #import "OperatorExpressionHandle.h"
 

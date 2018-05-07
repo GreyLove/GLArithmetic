@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07587D40DF2510E8B309729F6DF5009E /* OperatorExpressionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1546729D7AD96C1658007B2DB77E6A48 /* OperatorExpressionHandle.m */; };
+		137C1E5FF684BA1885DE892286E58707 /* OperatorExpressionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9642C276E9077059F298C05DF0BAED95 /* OperatorExpressionHandle.m */; };
 		2880F46C248DDA56FFB2D1E54AC6D6B9 /* Pods-GLArithmetic_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA43269A24833676742F511E8103F7C3 /* Pods-GLArithmetic_Tests-dummy.m */; };
-		3193A6DD203914D06A224B0E66C2037B /* GLArithmetic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F081018134A9B8C398D080388A5E37E /* GLArithmetic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C6C65E2E759AB761CA1FDEDA7FB5C60 /* OperatorExpressionHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = E1347FD59EA98E9DF582CCE5282691F8 /* OperatorExpressionHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43DBAC288C7833C795F926EED71DF605 /* Pods-GLArithmetic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FE3EE76DF1E5FDA70EAC15C464932 /* Pods-GLArithmetic_Example-dummy.m */; };
-		67CC8F4620A0094D00151EF9 /* NSString+ArithmeticRegular.h in Headers */ = {isa = PBXBuildFile; fileRef = 67CC8F4420A0094C00151EF9 /* NSString+ArithmeticRegular.h */; };
-		67CC8F4720A0094D00151EF9 /* NSString+ArithmeticRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CC8F4520A0094D00151EF9 /* NSString+ArithmeticRegular.m */; };
+		4B51C8322114B99D3BCD8BCC1F79893D /* OperatorCaculateFraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CF4931AEF14195D9948F7BF4C97448 /* OperatorCaculateFraction.m */; };
+		5E3C2F2C569D40923BB4AE313E522545 /* NSString+ArithmeticRegular.h in Headers */ = {isa = PBXBuildFile; fileRef = D3FD6E4AA2C0EAC967B87E041005CC3E /* NSString+ArithmeticRegular.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60A0DFBBD0BFE93F721BA7210B73EB88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		64A63F3381501212A7A2F2F37B277DA4 /* NSString+ArithmeticRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A1842B6C0465432650CEF7895D2E8D /* NSString+ArithmeticRegular.m */; };
 		6E3235DFE421AE3F127A3100A57A524B /* Pods-GLArithmetic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BE2E82E2B2710C68BBB081FAB27F58 /* Pods-GLArithmetic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84B73AD336CB9D27C791EF3DF83DFB22 /* OperatorCaculateFraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B781994F2B9C7C4E8828A8CEB548D32 /* OperatorCaculateFraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840921B2609FD989974B4A5833993535 /* OperatorCaculateFraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 45224CF899A1BEE9171EEEFD5FE158A9 /* OperatorCaculateFraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD206DA126BE30F94D2EA28CC9BF63A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BB6F8D9F0CA7E110A04B56631FA6310D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C0AE36E48ED6BE0D97B43F581F615E91 /* GLArithmetic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 569229E43302008A1D7946CC21E7ABFE /* GLArithmetic-dummy.m */; };
+		D4DB8129100D4BB30762F605BFD208CB /* OperatorExpressionHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F18177141B9BD0606FF79CDD43DAF98 /* OperatorExpressionHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF794BFA1CF98B0E95113BABE84DC7E9 /* Pods-GLArithmetic_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E32479C1BCCAB7AFC2FD9C9351289182 /* Pods-GLArithmetic_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E956E31AD1EAC22B686D754737716CEB /* OperatorCaculateFraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E760E1AF8221859DE448DE197C533B6 /* OperatorCaculateFraction.m */; };
-		ECEF6CE5CC4FCEE1A2AE6A761BEAB4D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E24B6782BD0D7C2A7B18A780178860C1 /* GLArithmetic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84246E1DB69DE062C13DE7726B0929E5 /* GLArithmetic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77595AC25127D41650D8E7D65A06D8E /* GLArithmetic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACBF4E4A92F2B124FFAA1BF4AE0A8BB /* GLArithmetic-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,63 +29,55 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D5A522CC7BAA92C68DF199863A34F038;
+			remoteGlobalIDString = A5203620F65E16D0D5005A3B4085AA3D;
 			remoteInfo = GLArithmetic;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06C4AB453EC7D9D5CD975C7590B1F5B3 /* Pods-GLArithmetic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLArithmetic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F081018134A9B8C398D080388A5E37E /* GLArithmetic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLArithmetic-umbrella.h"; sourceTree = "<group>"; };
-		1546729D7AD96C1658007B2DB77E6A48 /* OperatorExpressionHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OperatorExpressionHandle.m; path = GLArithmetic/Classes/CaculateArithmetic/OperatorExpressionHandle.m; sourceTree = "<group>"; };
-		2726842DCE167FBDC6F507C883E6FBC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2A2B2F4227AEEF62DD49658B3E784F5A /* GLArithmetic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GLArithmetic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		14CF4931AEF14195D9948F7BF4C97448 /* OperatorCaculateFraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OperatorCaculateFraction.m; path = GLArithmetic/Classes/CaculateArithmetic/OperatorCaculateFraction.m; sourceTree = "<group>"; };
+		1ED63BF47CE02E1255FD6BF759F13792 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2AAF32B826E41AC571150D39AC0735A7 /* Pods-GLArithmetic_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLArithmetic_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		301B286D8B5C96194F1EB4F35DA6F115 /* Pods-GLArithmetic_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLArithmetic_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		302DB7AC36B5DA8A1D6D5D616E5E57A5 /* GLArithmetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GLArithmetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302DB7AC36B5DA8A1D6D5D616E5E57A5 /* GLArithmetic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GLArithmetic.framework; path = GLArithmetic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BEE7D16314593D84111492CEF6DAF4 /* Pods-GLArithmetic_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLArithmetic_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		38328F2E2100CF6CD536B389F2485BE6 /* Pods-GLArithmetic_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLArithmetic_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B781994F2B9C7C4E8828A8CEB548D32 /* OperatorCaculateFraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OperatorCaculateFraction.h; path = GLArithmetic/Classes/CaculateArithmetic/OperatorCaculateFraction.h; sourceTree = "<group>"; };
-		3ED750A946ECA6BB2C683D733BF78CEA /* GLArithmetic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLArithmetic.xcconfig; sourceTree = "<group>"; };
+		45224CF899A1BEE9171EEEFD5FE158A9 /* OperatorCaculateFraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OperatorCaculateFraction.h; path = GLArithmetic/Classes/CaculateArithmetic/OperatorCaculateFraction.h; sourceTree = "<group>"; };
 		452A3D2663F4BFF65AEF31481F553662 /* Pods-GLArithmetic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLArithmetic_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4E760E1AF8221859DE448DE197C533B6 /* OperatorCaculateFraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OperatorCaculateFraction.m; path = GLArithmetic/Classes/CaculateArithmetic/OperatorCaculateFraction.m; sourceTree = "<group>"; };
-		569229E43302008A1D7946CC21E7ABFE /* GLArithmetic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLArithmetic-dummy.m"; sourceTree = "<group>"; };
-		6550389F0B33CE22E4D60CF183FF9B41 /* Pods_GLArithmetic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLArithmetic_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEA83D2A03FCCE195548D789925DFBD /* GLArithmetic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLArithmetic-prefix.pch"; sourceTree = "<group>"; };
+		4F18177141B9BD0606FF79CDD43DAF98 /* OperatorExpressionHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OperatorExpressionHandle.h; path = GLArithmetic/Classes/CaculateArithmetic/OperatorExpressionHandle.h; sourceTree = "<group>"; };
+		6550389F0B33CE22E4D60CF183FF9B41 /* Pods_GLArithmetic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLArithmetic_Tests.framework; path = "Pods-GLArithmetic_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67CC8F4420A0094C00151EF9 /* NSString+ArithmeticRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ArithmeticRegular.h"; sourceTree = "<group>"; };
-		67CC8F4520A0094D00151EF9 /* NSString+ArithmeticRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ArithmeticRegular.m"; sourceTree = "<group>"; };
-		7E1CB8B91CF00CA21D92F0019FE37972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		83C5040764E9A5B2E2AFE79F32CA9425 /* Pods-GLArithmetic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GLArithmetic_Tests.modulemap"; sourceTree = "<group>"; };
+		68A8327FEE5FE6939C887A7B5D1965BE /* GLArithmetic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GLArithmetic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D1A828F4292E7A26C42FA03B237C115 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C5040764E9A5B2E2AFE79F32CA9425 /* Pods-GLArithmetic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GLArithmetic_Tests.modulemap"; sourceTree = "<group>"; };
+		84246E1DB69DE062C13DE7726B0929E5 /* GLArithmetic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLArithmetic-umbrella.h"; sourceTree = "<group>"; };
 		844CDAE1CD85228E4EB81A704885B2EE /* Pods-GLArithmetic_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLArithmetic_Example-resources.sh"; sourceTree = "<group>"; };
-		8B68CF27EECDE6B42F94962D4573266A /* GLArithmetic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GLArithmetic.modulemap; sourceTree = "<group>"; };
-		931C4E6D29B9D31BA5FE62EE637D3C66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8ACBF4E4A92F2B124FFAA1BF4AE0A8BB /* GLArithmetic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLArithmetic-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9642C276E9077059F298C05DF0BAED95 /* OperatorExpressionHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OperatorExpressionHandle.m; path = GLArithmetic/Classes/CaculateArithmetic/OperatorExpressionHandle.m; sourceTree = "<group>"; };
 		A24FE3EE76DF1E5FDA70EAC15C464932 /* Pods-GLArithmetic_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLArithmetic_Example-dummy.m"; sourceTree = "<group>"; };
+		AC24B953FDEA1A9DEC21CF18AFAAF61A /* GLArithmetic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLArithmetic.xcconfig; sourceTree = "<group>"; };
+		ACA2C362D9596593745A86EB8C614CA6 /* GLArithmetic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GLArithmetic.modulemap; sourceTree = "<group>"; };
 		AE32D408E93DD3DE01FC5A5EF910268B /* Pods-GLArithmetic_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLArithmetic_Tests-resources.sh"; sourceTree = "<group>"; };
-		BCD5F32E2245EA03BE36C88D8E94710A /* Pods-GLArithmetic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GLArithmetic_Example.modulemap"; sourceTree = "<group>"; };
+		B1A1842B6C0465432650CEF7895D2E8D /* NSString+ArithmeticRegular.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ArithmeticRegular.m"; path = "GLArithmetic/Classes/CaculateArithmetic/NSString+ArithmeticRegular.m"; sourceTree = "<group>"; };
+		BCD5F32E2245EA03BE36C88D8E94710A /* Pods-GLArithmetic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GLArithmetic_Example.modulemap"; sourceTree = "<group>"; };
 		BD7206BC581323F0399E41DEF533097C /* Pods-GLArithmetic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLArithmetic_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFFA8F0586760866BFF6DDDEBDCB5CE7 /* Pods-GLArithmetic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLArithmetic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3BE2E82E2B2710C68BBB081FAB27F58 /* Pods-GLArithmetic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLArithmetic_Example-umbrella.h"; sourceTree = "<group>"; };
 		C4EADEEF33B92B28A3A3CF0CF3F8FCFB /* Pods-GLArithmetic_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLArithmetic_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CA889B1D86BCCFD4E61236F552EF7E6F /* Pods_GLArithmetic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLArithmetic_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA889B1D86BCCFD4E61236F552EF7E6F /* Pods_GLArithmetic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLArithmetic_Example.framework; path = "Pods-GLArithmetic_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FD6E4AA2C0EAC967B87E041005CC3E /* NSString+ArithmeticRegular.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ArithmeticRegular.h"; path = "GLArithmetic/Classes/CaculateArithmetic/NSString+ArithmeticRegular.h"; sourceTree = "<group>"; };
 		E06B6F91581DAFD3AE6AF434F0690EC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1347FD59EA98E9DF582CCE5282691F8 /* OperatorExpressionHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OperatorExpressionHandle.h; path = GLArithmetic/Classes/CaculateArithmetic/OperatorExpressionHandle.h; sourceTree = "<group>"; };
 		E32479C1BCCAB7AFC2FD9C9351289182 /* Pods-GLArithmetic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLArithmetic_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E59CCB58DAD3853DBE9E5C06E4A3ADE1 /* Pods-GLArithmetic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLArithmetic_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F6B57BEC19603C2EDA2B026A7553C0AF /* GLArithmetic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLArithmetic-prefix.pch"; sourceTree = "<group>"; };
+		F30E2C5C2BC25C2408B9EB3667A2AE15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F873496F2B38CBF4315A2B9A5E0ACD91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA43269A24833676742F511E8103F7C3 /* Pods-GLArithmetic_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLArithmetic_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E4A4F97F4E3361A40BEC8B409F13E20 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ECEF6CE5CC4FCEE1A2AE6A761BEAB4D3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		95461954098568CBAFC5198E0BEC3D80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,23 +94,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4F7CE3183A6BB89526AF919D717C2E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A0DFBBD0BFE93F721BA7210B73EB88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0951510391CBF3E5DDE521B277B566A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B68CF27EECDE6B42F94962D4573266A /* GLArithmetic.modulemap */,
-				3ED750A946ECA6BB2C683D733BF78CEA /* GLArithmetic.xcconfig */,
-				569229E43302008A1D7946CC21E7ABFE /* GLArithmetic-dummy.m */,
-				F6B57BEC19603C2EDA2B026A7553C0AF /* GLArithmetic-prefix.pch */,
-				0F081018134A9B8C398D080388A5E37E /* GLArithmetic-umbrella.h */,
-				931C4E6D29B9D31BA5FE62EE637D3C66 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GLArithmetic";
-			sourceTree = "<group>";
-		};
 		157EE6658C2D95FFDCC704BCC038728D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +112,22 @@
 				2D58922C39F632403F2EAE20AD8FCCF4 /* Pods-GLArithmetic_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		219D85A88F485CD9139D3DDFBC6B1C9B /* GLArithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				D3FD6E4AA2C0EAC967B87E041005CC3E /* NSString+ArithmeticRegular.h */,
+				B1A1842B6C0465432650CEF7895D2E8D /* NSString+ArithmeticRegular.m */,
+				45224CF899A1BEE9171EEEFD5FE158A9 /* OperatorCaculateFraction.h */,
+				14CF4931AEF14195D9948F7BF4C97448 /* OperatorCaculateFraction.m */,
+				4F18177141B9BD0606FF79CDD43DAF98 /* OperatorExpressionHandle.h */,
+				9642C276E9077059F298C05DF0BAED95 /* OperatorExpressionHandle.m */,
+				54C636551901C92AEDA8571C308E6422 /* Pod */,
+				E29F60A386C20ADB2BA9A9949C0D2F59 /* Support Files */,
+			);
+			name = GLArithmetic;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2D58922C39F632403F2EAE20AD8FCCF4 /* Pods-GLArithmetic_Tests */ = {
@@ -146,11 +148,29 @@
 			path = "Target Support Files/Pods-GLArithmetic_Tests";
 			sourceTree = "<group>";
 		};
+		2F577EAD7EED76D8E48117B75D8F59B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				219D85A88F485CD9139D3DDFBC6B1C9B /* GLArithmetic */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		54C636551901C92AEDA8571C308E6422 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				68A8327FEE5FE6939C887A7B5D1965BE /* GLArithmetic.podspec */,
+				1ED63BF47CE02E1255FD6BF759F13792 /* LICENSE */,
+				F30E2C5C2BC25C2408B9EB3667A2AE15 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BF8E3BDA2FCA01FAB295636E4DBC1F3C /* Development Pods */,
+				2F577EAD7EED76D8E48117B75D8F59B2 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8831DCDFB8DEF3443B6E1DA8C3D779B3 /* Products */,
 				157EE6658C2D95FFDCC704BCC038728D /* Targets Support Files */,
@@ -185,16 +205,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B680738769E04B9314E5538F21BE5A2E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2A2B2F4227AEEF62DD49658B3E784F5A /* GLArithmetic.podspec */,
-				7E1CB8B91CF00CA21D92F0019FE37972 /* LICENSE */,
-				2726842DCE167FBDC6F507C883E6FBC8 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,36 +213,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF8E3BDA2FCA01FAB295636E4DBC1F3C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CE9211E32CF1A46F07243711642C37B1 /* GLArithmetic */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CE9211E32CF1A46F07243711642C37B1 /* GLArithmetic */ = {
-			isa = PBXGroup;
-			children = (
-				67CC8F4420A0094C00151EF9 /* NSString+ArithmeticRegular.h */,
-				67CC8F4520A0094D00151EF9 /* NSString+ArithmeticRegular.m */,
-				3B781994F2B9C7C4E8828A8CEB548D32 /* OperatorCaculateFraction.h */,
-				4E760E1AF8221859DE448DE197C533B6 /* OperatorCaculateFraction.m */,
-				E1347FD59EA98E9DF582CCE5282691F8 /* OperatorExpressionHandle.h */,
-				1546729D7AD96C1658007B2DB77E6A48 /* OperatorExpressionHandle.m */,
-				B680738769E04B9314E5538F21BE5A2E /* Pod */,
-				0951510391CBF3E5DDE521B277B566A1 /* Support Files */,
-			);
-			name = GLArithmetic;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E29F60A386C20ADB2BA9A9949C0D2F59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACA2C362D9596593745A86EB8C614CA6 /* GLArithmetic.modulemap */,
+				AC24B953FDEA1A9DEC21CF18AFAAF61A /* GLArithmetic.xcconfig */,
+				8ACBF4E4A92F2B124FFAA1BF4AE0A8BB /* GLArithmetic-dummy.m */,
+				4CEA83D2A03FCCE195548D789925DFBD /* GLArithmetic-prefix.pch */,
+				84246E1DB69DE062C13DE7726B0929E5 /* GLArithmetic-umbrella.h */,
+				6D1A828F4292E7A26C42FA03B237C115 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GLArithmetic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +246,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61D40A9431E81EC5685E150DAC9C052E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24B6782BD0D7C2A7B18A780178860C1 /* GLArithmetic-umbrella.h in Headers */,
+				5E3C2F2C569D40923BB4AE313E522545 /* NSString+ArithmeticRegular.h in Headers */,
+				840921B2609FD989974B4A5833993535 /* OperatorCaculateFraction.h in Headers */,
+				D4DB8129100D4BB30762F605BFD208CB /* OperatorExpressionHandle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68073F31828D501CEE027A02922E0E77 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,27 +265,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB2D5AF7AE192BEB6D024912CFB46E2D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3193A6DD203914D06A224B0E66C2037B /* GLArithmetic-umbrella.h in Headers */,
-				67CC8F4620A0094D00151EF9 /* NSString+ArithmeticRegular.h in Headers */,
-				84B73AD336CB9D27C791EF3DF83DFB22 /* OperatorCaculateFraction.h in Headers */,
-				3C6C65E2E759AB761CA1FDEDA7FB5C60 /* OperatorExpressionHandle.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D5A522CC7BAA92C68DF199863A34F038 /* GLArithmetic */ = {
+		A5203620F65E16D0D5005A3B4085AA3D /* GLArithmetic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D6F9F80CB3A323BBEA13BC5FD4EA808 /* Build configuration list for PBXNativeTarget "GLArithmetic" */;
+			buildConfigurationList = 2C54CBEB3A3841D3854D7B39ADF0ECE2 /* Build configuration list for PBXNativeTarget "GLArithmetic" */;
 			buildPhases = (
-				C3AF03F857832BB621544786F89324B8 /* Sources */,
-				1E4A4F97F4E3361A40BEC8B409F13E20 /* Frameworks */,
-				DB2D5AF7AE192BEB6D024912CFB46E2D /* Headers */,
+				A2601A624007A84B9693F2CD7C8A2E47 /* Sources */,
+				C4F7CE3183A6BB89526AF919D717C2E5 /* Frameworks */,
+				61D40A9431E81EC5685E150DAC9C052E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -341,7 +341,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5A522CC7BAA92C68DF199863A34F038 /* GLArithmetic */,
+				A5203620F65E16D0D5005A3B4085AA3D /* GLArithmetic */,
 				E0A8DE39A2E1E70500CF4D513CA4DE94 /* Pods-GLArithmetic_Example */,
 				F292E90A019DA0BF52A069397BDBE4EB /* Pods-GLArithmetic_Tests */,
 			);
@@ -357,22 +357,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2601A624007A84B9693F2CD7C8A2E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77595AC25127D41650D8E7D65A06D8E /* GLArithmetic-dummy.m in Sources */,
+				64A63F3381501212A7A2F2F37B277DA4 /* NSString+ArithmeticRegular.m in Sources */,
+				4B51C8322114B99D3BCD8BCC1F79893D /* OperatorCaculateFraction.m in Sources */,
+				137C1E5FF684BA1885DE892286E58707 /* OperatorExpressionHandle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A871701F4F82037B66637E15CD44A7D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				43DBAC288C7833C795F926EED71DF605 /* Pods-GLArithmetic_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3AF03F857832BB621544786F89324B8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0AE36E48ED6BE0D97B43F581F615E91 /* GLArithmetic-dummy.m in Sources */,
-				E956E31AD1EAC22B686D754737716CEB /* OperatorCaculateFraction.m in Sources */,
-				67CC8F4720A0094D00151EF9 /* NSString+ArithmeticRegular.m in Sources */,
-				07587D40DF2510E8B309729F6DF5009E /* OperatorExpressionHandle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +382,7 @@
 		1D0AFC68643051784EB648BDCC0CDF98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GLArithmetic;
-			target = D5A522CC7BAA92C68DF199863A34F038 /* GLArithmetic */;
+			target = A5203620F65E16D0D5005A3B4085AA3D /* GLArithmetic */;
 			targetProxy = 55DE0DAB0B5A1093FE2A4DB1CBA1EF48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -414,35 +414,6 @@
 				PRODUCT_NAME = Pods_GLArithmetic_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2C28B04D46F6A06098242496FD6AE51D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ED750A946ECA6BB2C683D733BF78CEA /* GLArithmetic.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GLArithmetic/GLArithmetic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GLArithmetic/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GLArithmetic/GLArithmetic.modulemap";
-				PRODUCT_NAME = GLArithmetic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -662,9 +633,38 @@
 			};
 			name = Debug;
 		};
-		A7B61D4AE17D50A43C98A6DAE21733F6 /* Release */ = {
+		9351B998F75A39208EB6B212CE7E6CD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ED750A946ECA6BB2C683D733BF78CEA /* GLArithmetic.xcconfig */;
+			baseConfigurationReference = AC24B953FDEA1A9DEC21CF18AFAAF61A /* GLArithmetic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLArithmetic/GLArithmetic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLArithmetic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GLArithmetic/GLArithmetic.modulemap";
+				PRODUCT_NAME = GLArithmetic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC04428403EA3B8620517AAED608B71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC24B953FDEA1A9DEC21CF18AFAAF61A /* GLArithmetic.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -704,20 +704,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2C54CBEB3A3841D3854D7B39ADF0ECE2 /* Build configuration list for PBXNativeTarget "GLArithmetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9351B998F75A39208EB6B212CE7E6CD4 /* Debug */,
+				DC04428403EA3B8620517AAED608B71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
 				731DC216E1A58545B559F6E0A2418060 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6D6F9F80CB3A323BBEA13BC5FD4EA808 /* Build configuration list for PBXNativeTarget "GLArithmetic" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C28B04D46F6A06098242496FD6AE51D /* Debug */,
-				A7B61D4AE17D50A43C98A6DAE21733F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
