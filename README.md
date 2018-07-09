@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GLArithmetic
 
 [![CI Status](http://img.shields.io/travis/guolei/GLArithmetic.svg?style=flat)](https://travis-ci.org/guolei/GLArithmetic)
@@ -38,6 +37,8 @@ GLArithmetic is available under the MIT license. See the LICENSE file for more i
 //errorString:正则判断表达式是否合法，不合法errorString不为nil
 + (NSString*)calculateFraction:(NSString *)infixexp errorString:(NSString **)errorString;
 
-//分数转小数,拿到+ (NSString*)calculateFraction:(NSString *)infixexp errorString:(NSString **)errorString; 计算结果，转化为小数
+
+//分数转小数,拿到+ (NSString*)calculateFraction:(NSString *)infixexp errorString:(NSString **)errorString; 
+//计算结果，转化为小数
 + (NSString*)fractionTranslatePoint:(NSString *)fraction;
 
