@@ -28,7 +28,16 @@ guolei, guolei_coder@126.com
 ## License
 
 GLArithmetic is available under the MIT license. See the LICENSE file for more info.
-=======
+
 # Arithmetic
-四则运算,随机表达式生成验证此代码
->>>>>>> c85d346be2918245a06f677e01b98d3dd1f91861
+四则运算
+随机表达式生成验证此代码结果
+
+
+//计算分数表达式
+//errorString:正则判断表达式是否合法，不合法errorString不为nil
++ (NSString*)calculateFraction:(NSString *)infixexp errorString:(NSString **)errorString;
+
+//分数转小数,拿到+ (NSString*)calculateFraction:(NSString *)infixexp errorString:(NSString **)errorString; 计算结果，转化为小数
++ (NSString*)fractionTranslatePoint:(NSString *)fraction;
+
