@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GLArithmetic'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'GLArithmetic.'
 
   s.description      = <<-DESC
