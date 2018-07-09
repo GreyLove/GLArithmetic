@@ -23,12 +23,12 @@ pod 'GLArithmetic'
 
 ## Author
 
-guolei, guolei@knowbox.cn
+guolei, guolei_coder@126.com
 
 ## License
 
 GLArithmetic is available under the MIT license. See the LICENSE file for more info.
 =======
 # Arithmetic
-四则运算算式
+四则运算,随机表达式生成验证此代码
 >>>>>>> c85d346be2918245a06f677e01b98d3dd1f91861
