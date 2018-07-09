@@ -18,7 +18,7 @@ GLArithmetic Caculate
   s.homepage         = 'https://gitee.com/guoleiCoder'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'guolei' =>'guolei_coder@126.com' } 
-  s.source           = { :git => 'https://gitee.com/guoleiCoder/Arithmetic.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GreyLove/GLArithmetic.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
 
