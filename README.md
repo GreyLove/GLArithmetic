@@ -42,3 +42,5 @@ GLArithmetic is available under the MIT license. See the LICENSE file for more i
 //计算结果，转化为小数
 + (NSString*)fractionTranslatePoint:(NSString *)fraction;
 
+文章：https://www.jianshu.com/p/329b4918fc19
+
